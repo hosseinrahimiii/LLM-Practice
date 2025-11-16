@@ -1,0 +1,1023 @@
+[
+  {
+    "id": 1,
+    "product_specs": {
+      "name": "هدفون Sony WH-1000XM5",
+      "battery": "up to 30 hours",
+      "connection": "Bluetooth 5.2",
+      "noise_cancelling": "active"
+    },
+    "claim": "هدفون Sony WH-1000XM5 با عمر باتری حداکثر ۳۰ ساعت و بلوتوث ۵.۲، برای سفرهای طولانی عالیه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 2,
+    "product_specs": {
+      "name": "لپ تاپ Asus VivoBook 15",
+      "cpu": "Intel Core i5-1235U",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe"
+    },
+    "claim": "این لپ‌تاپ ایسوس ویووبوک ۱۵ با ۱۶ گیگابایت رم و گرافیک مجزای NVIDIA برای گیمینگ ایده‌آله.",
+    "label": "REJECT"
+  },
+  {
+    "id": 3,
+    "product_specs": {
+      "name": "Samsung Galaxy S23",
+      "display": "6.1 inch AMOLED 120Hz",
+      "camera_main": "50MP",
+      "network": "5G"
+    },
+    "claim": "گوشی S23 با صفحه AMOLED، نرخ نوسازی ۱۲۰ هرتز و دوربین اصلی ۵۰ مگاپیکسلی عرضه می‌شه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 4,
+    "product_specs": {
+      "name": "Apple iPhone 13",
+      "storage": "128GB",
+      "battery": "3240 mAh",
+      "network": "4G"
+    },
+    "claim": "آیفون ۱۳ با حافظه ۲۵۶ گیگابایت و پشتیبانی کامل از ۵G انتخاب مناسبی برای آینده است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 5,
+    "product_specs": {
+      "name": "شیائومی Redmi Note 12",
+      "ram": "6GB",
+      "storage": "128GB",
+      "battery": "5000 mAh",
+      "charging": "33W fast charging"
+    },
+    "claim": "ردمی نوت ۱۲ با باتری ۵۰۰۰ میلی‌آمپر و شارژ سریع ۳۳ واتی، یک گوشی ایده‌آل برای استفاده روزمره است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 6,
+    "product_specs": {
+      "name": "Lenovo IdeaPad 3",
+      "cpu": "AMD Ryzen 5 5500U",
+      "ram": "8GB",
+      "storage": "256GB SSD"
+    },
+    "claim": "لنوو آیدیاپد ۳ با پردازنده اینتل Core i5 و ۸ گیگابایت رم برای کارهای دانشجویی مناسبه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 7,
+    "product_specs": {
+      "name": "Apple Watch Series 9",
+      "battery": "up to 18 hours",
+      "water_resistance": "50m",
+      "gps": "Yes"
+    },
+    "claim": "این ساعت هوشمند با باتری تقریبا ۱۸ ساعته یک روز کامل همراه شماست و تا ۵۰ متر در برابر آب مقاومه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 8,
+    "product_specs": {
+      "name": "هدفون JBL Tune 510BT",
+      "battery": "up to 40 hours",
+      "connection": "Bluetooth 5.0"
+    },
+    "claim": "هدفون JBL Tune 510BT فقط ۲۰ ساعت شارژدهی داره و برای استفاده طولانی مناسب نیست.",
+    "label": "REJECT"
+  },
+  {
+    "id": 9,
+    "product_specs": {
+      "name": "مانیتور LG UltraGear 27GN800",
+      "size": "27 inch",
+      "refresh_rate": "144Hz",
+      "resolution": "QHD"
+    },
+    "claim": "این مانیتور ۲۷ اینچی ال‌جی با رزولوشن QHD و رفرش‌ریت ۱۴۴ هرتز برای گیمینگ حرفه‌ای عالیه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 10,
+    "product_specs": {
+      "name": "مانیتور Samsung T350",
+      "size": "24 inch",
+      "refresh_rate": "75Hz",
+      "resolution": "Full HD"
+    },
+    "claim": "مانیتور سامسونگ T350 یک پنل ۲۴ اینچی فول‌اچ‌دی با رفرش‌ریت ۱۴۴ هرتز ارائه می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 11,
+    "product_specs": {
+      "name": "کنسول PlayStation 5 Digital Edition",
+      "storage": "825GB SSD",
+      "disk_drive": "No"
+    },
+    "claim": "نسخه دیجیتال پلی‌استیشن ۵ بدون درایو دیسک و با حافظه SSD مخصوص بازی عرضه می‌شه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 12,
+    "product_specs": {
+      "name": "کنسول Xbox Series S",
+      "storage": "512GB SSD",
+      "resolution": "up to 1440p"
+    },
+    "claim": "ایکس‌باکس سری S با حافظه ۱ ترابایتی و اجرای بازی‌ها تا رزولوشن ۴K واقعی ارائه می‌شود.",
+    "label": "REJECT"
+  },
+  {
+    "id": 13,
+    "product_specs": {
+      "name": "اسپیکر بلوتوثی Anker Soundcore 3",
+      "battery": "up to 24 hours",
+      "water_resistance": "IPX7"
+    },
+    "claim": "اسپیکر ساندکور ۳ با شارژدهی حداکثر ۲۴ ساعت و استاندارد IPX7 گزینه خوبی برای مهمانی‌های کنار استخره.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 14,
+    "product_specs": {
+      "name": "اسپیکر بلوتوثی Xiaomi Mi Compact",
+      "battery": "up to 6 hours",
+      "water_resistance": "No"
+    },
+    "claim": "این اسپیکر شیائومی با باتری ۱۲ ساعته و استاندارد ضدآب IPX7 برای فضای بیرون عالیه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 15,
+    "product_specs": {
+      "name": "پاوربانک Xiaomi 20,000mAh",
+      "capacity": "20000mAh",
+      "output_power": "18W"
+    },
+    "claim": "این پاوربانک شیائومی ۲۰ هزار میلی‌آمپر ساعت ظرفیت داره و شارژ سریع ۱۸ واتی ارائه می‌کنه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 16,
+    "product_specs": {
+      "name": "پاوربانک Baseus 10,000mAh",
+      "capacity": "10000mAh",
+      "output_power": "10W"
+    },
+    "claim": "پاوربانک بیسوس ۱۰ هزار میلی‌آمپر با پشتیبانی از شارژ سریع ۳۰ واتی برای گوشی‌های پرچمدار مناسبه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 17,
+    "product_specs": {
+      "name": "روتر TP-Link Archer C6",
+      "wifi_standard": "Wi-Fi 5",
+      "bands": "dual band"
+    },
+    "claim": "روتر Archer C6 با استاندارد Wi-Fi 5 و باند دوگانه، پوشش خوبی برای خانه‌های آپارتمانی فراهم می‌کنه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 18,
+    "product_specs": {
+      "name": "روتر TP-Link Archer AX20",
+      "wifi_standard": "Wi-Fi 6",
+      "bands": "dual band"
+    },
+    "claim": "این روتر تی‌پی‌لینک AX20 تنها از استاندارد Wi-Fi 4 پشتیبانی می‌کند و برای مصارف ساده است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 19,
+    "product_specs": {
+      "name": "تبلت Samsung Galaxy Tab A8",
+      "display": "10.5 inch LCD",
+      "ram": "4GB",
+      "storage": "64GB"
+    },
+    "claim": "تبلت گلکسی تب A8 با صفحه ۱۰.۵ اینچی LCD و ۴ گیگابایت رم، برای تماشای فیلم و کلاس آنلاین مناسبه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 20,
+    "product_specs": {
+      "name": "تبلت Apple iPad 9th Gen",
+      "display": "10.2 inch Retina",
+      "storage": "64GB"
+    },
+    "claim": "آیپد نسل ۹ با نمایشگر ۱۲.۹ اینچی و حافظه ۲۵۶ گیگابایت برای طراحی حرفه‌ای مناسبه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 21,
+    "product_specs": {
+      "name": "گوشی Poco X5 Pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "battery": "5000 mAh",
+      "charging": "67W fast charging"
+    },
+    "claim": "پوکو X5 Pro با ۸ گیگ رم، ۲۵۶ گیگ حافظه و شارژ سریع ۶۷ واتی، یک گوشی میان‌رده قدرتمنده.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 22,
+    "product_specs": {
+      "name": "گوشی Samsung Galaxy A14",
+      "ram": "4GB",
+      "storage": "64GB",
+      "battery": "5000 mAh"
+    },
+    "claim": "گوشی A14 با ۸ گیگابایت رم و ۱۲۸ گیگ حافظه، برای بازی‌های سنگین عالیه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 23,
+    "product_specs": {
+      "name": "لپ تاپ Dell XPS 13",
+      "cpu": "Intel Core i7-1250U",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "gpu": "Intel Iris Xe"
+    },
+    "claim": "دل XPS 13 با پردازنده Core i7 نسل دوازده، ۱۶ گیگ رم و SSD ۵۱۲ گیگ، برای برنامه‌نویس‌ها عالیه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 24,
+    "product_specs": {
+      "name": "لپ تاپ HP 15s",
+      "cpu": "Intel Core i3-1115G4",
+      "ram": "8GB",
+      "storage": "1TB HDD",
+      "gpu": "Intel UHD"
+    },
+    "claim": "HP 15s با حافظه SSD پرسرعت و گرافیک NVIDIA MX450 برای رندر سه‌بعدی مناسبه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 25,
+    "product_specs": {
+      "name": "گوشی iPhone 14 Pro",
+      "camera_main": "48MP",
+      "camera_ultra_wide": "12MP",
+      "camera_telephoto": "12MP"
+    },
+    "claim": "آیفون ۱۴ پرو با دوربین اصلی ۴۸ مگاپیکسلی و لنز اولتراواید ۱۲ مگاپیکسل، برای عکاسی حرفه‌ای فوق‌العاده است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 26,
+    "product_specs": {
+      "name": "گوشی iPhone SE 2022",
+      "camera_main": "12MP",
+      "network": "5G"
+    },
+    "claim": "آیفون SE 2022 با دوربین ۴۸ مگاپیکسلی و نمایشگر بدون حاشیه، یک گوشی پرچمدار ارزان است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 27,
+    "product_specs": {
+      "name": "ساعت هوشمند Huawei Watch GT 3",
+      "battery": "up to 14 days",
+      "gps": "Yes"
+    },
+    "claim": "هوآوی واچ GT ۳ با باتری تا ۱۴ روز و GPS داخلی، برای ورزشکاران گزینه بسیار خوبیه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 28,
+    "product_specs": {
+      "name": "ساعت هوشمند Xiaomi Redmi Watch 2 Lite",
+      "battery": "up to 10 days",
+      "gps": "Yes"
+    },
+    "claim": "ردمی واچ ۲ لایت فقط یک روز شارژ نگه می‌داره و GPS داخلی نداره.",
+    "label": "REJECT"
+  },
+  {
+    "id": 29,
+    "product_specs": {
+      "name": "هدفون Galaxy Buds2 Pro",
+      "battery": "up to 5 hours (buds)",
+      "anc": "Yes",
+      "wireless_charging": "Yes"
+    },
+    "claim": "Galaxy Buds2 Pro با حذف نویز فعال و پشتیبانی از شارژ بی‌سیم، تا حدود ۵ ساعت موسیقی پخش می‌کنه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 30,
+    "product_specs": {
+      "name": "هدفون Apple AirPods 2",
+      "battery": "up to 5 hours",
+      "wireless_charging": "No"
+    },
+    "claim": "ایرپادز نسل ۲ با کیس شارژ بی‌سیم و ۱۰ ساعت شارژدهی هر ایرباد عرضه می‌شه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 31,
+    "product_specs": {
+      "name": "تلویزیون LG C2 OLED",
+      "size": "55 inch",
+      "panel": "OLED",
+      "resolution": "4K"
+    },
+    "claim": "تلویزیون LG C2 با پنل OLED و کیفیت تصویر 4K یکی از بهترین گزینه‌ها برای تماشای فیلمه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 32,
+    "product_specs": {
+      "name": "تلویزیون Samsung AU7000",
+      "size": "50 inch",
+      "panel": "LED",
+      "resolution": "4K"
+    },
+    "claim": "سامسونگ AU7000 با پنل OLED و رفرش‌ریت ۱۲۰ هرتز برای گیمینگ عالیه.",
+    "label": "REJECT"
+  },
+  {
+    "id": 33,
+    "product_specs": {
+      "name": "لپ تاپ Acer Nitro 5",
+      "cpu": "Intel Core i5-11400H",
+      "ram": "16GB",
+      "gpu": "NVIDIA GTX 1650",
+      "storage": "512GB SSD"
+    },
+    "claim": "ایسر نیترو ۵ با رم ۱۶ گیگ و گرافیک GTX 1650 برای گیمینگ مناسب است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 34,
+    "product_specs": {
+      "name": "لپ تاپ Lenovo ThinkPad E14",
+      "cpu": "Intel Core i7-1165G7",
+      "ram": "16GB",
+      "storage": "512GB SSD"
+    },
+    "claim": "لنوو تینک‌پد E14 بدون پورت USB-C عرضه می‌شود.",
+    "label": "REJECT"
+  },
+  {
+    "id": 35,
+    "product_specs": {
+      "name": "گوشی Xiaomi 13",
+      "camera_main": "50MP",
+      "display": "AMOLED 120Hz"
+    },
+    "claim": "شیائومی ۱۳ یک دوربین ۵۰ مگاپیکسلی و نمایشگر AMOLED با نرخ ۱۲۰ هرتز دارد.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 36,
+    "product_specs": {
+      "name": "گوشی Motorola G31",
+      "camera_main": "50MP",
+      "display": "OLED",
+      "battery": "5000 mAh"
+    },
+    "claim": "موتورولا G31 فاقد نمایشگر OLED است و روشنایی پایینی دارد.",
+    "label": "REJECT"
+  },
+  {
+    "id": 37,
+    "product_specs": {
+      "name": "ساعت هوشمند Amazfit GTS 2",
+      "battery": "up to 7 days",
+      "gps": "Yes"
+    },
+    "claim": "امیزفیت GTS 2 با GPS و باتری ۷ روزه، گزینه‌ای مناسب برای استفاده روزمره است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 38,
+    "product_specs": {
+      "name": "ساعت هوشمند Amazfit Bip U",
+      "battery": "up to 9 days",
+      "gps": "No"
+    },
+    "claim": "Amazfit Bip U دارای GPS داخلی است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 39,
+    "product_specs": {
+      "name": "هدفون Sony WF-1000XM4",
+      "battery": "up to 8 hours",
+      "anc": "Yes"
+    },
+    "claim": "هدفون WF-1000XM4 با نویز کنسلینگ عالی و باتری ۸ ساعته بسیار محبوب است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 40,
+    "product_specs": {
+      "name": "هدفون QCY T13",
+      "battery": "up to 7 hours",
+      "anc": "No"
+    },
+    "claim": "QCY T13 از حذف نویز فعال پشتیبانی می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 41,
+    "product_specs": {
+      "name": "پاوربانک Anker PowerCore Select 20000",
+      "capacity": "20000mAh",
+      "output_power": "10W"
+    },
+    "claim": "پاوربانک انکر ۲۰ هزار میلی‌آمپر تنها خروجی ۱۰ وات دارد و شارژ سریع پشتیبانی نمی‌کند.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 42,
+    "product_specs": {
+      "name": "پاوربانک Romoss Sense 8P+",
+      "capacity": "30000mAh",
+      "output_power": "22.5W"
+    },
+    "claim": "Romoss Sense 8P+ فاقد قابلیت شارژ سریع است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 43,
+    "product_specs": {
+      "name": "کارت گرافیک RTX 3060",
+      "vram": "12GB",
+      "power": "170W"
+    },
+    "claim": "RTX 3060 با ۱۲ گیگابایت VRAM برای گیمینگ 1080p و 1440p مناسب است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 44,
+    "product_specs": {
+      "name": "کارت گرافیک GTX 1050 Ti",
+      "vram": "4GB",
+      "power": "75W"
+    },
+    "claim": "GTX 1050 Ti دارای ۸ گیگابایت VRAM و مصرف ۱۵۰ وات است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 45,
+    "product_specs": {
+      "name": "پردازنده Intel Core i7-13700K",
+      "cores": "16",
+      "threads": "24"
+    },
+    "claim": "پردازنده i7-13700K با ۱۶ هسته و ۲۴ ترد برای کارهای سنگین فوق‌العاده است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 46,
+    "product_specs": {
+      "name": "پردازنده AMD Ryzen 5 5600X",
+      "cores": "6",
+      "threads": "12"
+    },
+    "claim": "Ryzen 5 5600X دارای ۸ هسته و ۱۶ ترد است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 47,
+    "product_specs": {
+      "name": "رم Corsair Vengeance 16GB",
+      "speed": "3200MHz",
+      "type": "DDR4"
+    },
+    "claim": "رم ۱۶ گیگ Corsair با سرعت ۳۲۰۰ مگاهرتز برای سیستم‌های DDR4 ایده‌آل است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 48,
+    "product_specs": {
+      "name": "رم Kingston Fury Beast 8GB",
+      "speed": "2666MHz",
+      "type": "DDR4"
+    },
+    "claim": "رم Kingston Fury Beast با سرعت ۳۲۰۰ مگاهرتز عرضه می‌شود.",
+    "label": "REJECT"
+  },
+  {
+    "id": 49,
+    "product_specs": {
+      "name": "SSD Samsung 970 EVO Plus",
+      "type": "NVMe",
+      "capacity": "1TB"
+    },
+    "claim": "SSD 970 EVO Plus از نوع NVMe و با ظرفیت ۱ ترابایت سرعت بسیار بالایی دارد.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 50,
+    "product_specs": {
+      "name": "SSD WD Green",
+      "type": "SATA",
+      "capacity": "240GB"
+    },
+    "claim": "WD Green یک SSD از نوع NVMe است و سرعت بسیار بالایی دارد.",
+    "label": "REJECT"
+  },
+  {
+    "id": 51,
+    "product_specs": {
+      "name": "مانیتور Asus VG249Q",
+      "size": "24 inch",
+      "refresh_rate": "144Hz",
+      "panel": "IPS"
+    },
+    "claim": "مانیتور VG249Q با پنل IPS و رفرش‌ریت ۱۴۴ هرتز یکی از بهترین گزینه‌ها برای گیمرهاست.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 52,
+    "product_specs": {
+      "name": "مانیتور BenQ GW2480",
+      "size": "24 inch",
+      "refresh_rate": "60Hz",
+      "panel": "IPS"
+    },
+    "claim": "BenQ GW2480 یک مانیتور ۱۴۴ هرتز با پنل VA است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 53,
+    "product_specs": {
+      "name": "پرینتر HP LaserJet Pro M15w",
+      "type": "laser",
+      "wifi": "Yes"
+    },
+    "claim": "پرینتر M15w از وای‌فای پشتیبانی می‌کند و یک چاپگر لیزری جمع‌وجور است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 54,
+    "product_specs": {
+      "name": "پرینتر Canon PIXMA G2411",
+      "type": "inkjet",
+      "wifi": "No"
+    },
+    "claim": "پرینتر Canon G2411 دارای وای‌فای داخلی است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 55,
+    "product_specs": {
+      "name": "کیبورد Logitech G213",
+      "type": "membrane",
+      "rgb": "Yes"
+    },
+    "claim": "کیبورد G213 با نور RGB و دکمه‌های ممبران یک گزینه مناسب برای گیمینگ است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 56,
+    "product_specs": {
+      "name": "کیبورد Redragon K552",
+      "type": "mechanical",
+      "rgb": "Yes"
+    },
+    "claim": "Redragon K552 یک کیبورد ممبران است و صدای کمی دارد.",
+    "label": "REJECT"
+  },
+  {
+    "id": 57,
+    "product_specs": {
+      "name": "ماوس Razer DeathAdder Essential",
+      "dpi": "6400"
+    },
+    "claim": "DeathAdder Essential با DPI 6400 برای گیمینگ مناسب است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 58,
+    "product_specs": {
+      "name": "ماوس Logitech M185",
+      "dpi": "1000"
+    },
+    "claim": "Logitech M185 یک ماوس مخصوص گیمینگ با DPI بالا است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 59,
+    "product_specs": {
+      "name": "لپ تاپ MacBook Air M1",
+      "cpu": "Apple M1",
+      "ram": "8GB",
+      "storage": "256GB"
+    },
+    "claim": "مک‌بوک ایر M1 با پردازنده M1 و مصرف پایین انرژی، سرعت فوق‌العاده‌ای دارد.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 60,
+    "product_specs": {
+      "name": "لپ تاپ MacBook Air 2017",
+      "cpu": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "128GB"
+    },
+    "claim": "MacBook Air 2017 از پردازنده M1 استفاده می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 61,
+    "product_specs": {
+      "name": "گوشی OnePlus 11",
+      "camera_main": "50MP",
+      "display": "AMOLED 120Hz"
+    },
+    "claim": "وان‌پلاس ۱۱ با دوربین ۵۰ مگاپیکسلی و نمایشگر ۱۲۰ هرتز AMOLED عرضه شده است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 62,
+    "product_specs": {
+      "name": "گوشی OnePlus Nord N20",
+      "camera_main": "64MP",
+      "display": "AMOLED"
+    },
+    "claim": "Nord N20 فاقد نمایشگر AMOLED است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 63,
+    "product_specs": {
+      "name": "هارد اکسترنال WD My Passport 2TB",
+      "type": "HDD",
+      "capacity": "2TB"
+    },
+    "claim": "هارد My Passport با ظرفیت ۲ ترابایت یک هارد اکسترنال HDD قابل‌اعتماد است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 64,
+    "product_specs": {
+      "name": "هارد اکسترنال Seagate Expansion 1TB",
+      "type": "HDD",
+      "capacity": "1TB"
+    },
+    "claim": "هارد Seagate Expansion دارای ظرفیت ۲ ترابایت است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 65,
+    "product_specs": {
+      "name": "اسپیکر JBL Charge 5",
+      "battery": "up to 20 hours",
+      "water_resistance": "IP67"
+    },
+    "claim": "JBL Charge 5 با استاندارد IP67 و باتری ۲۰ ساعته برای استفاده outdoor عالیه.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 66,
+    "product_specs": {
+      "name": "اسپیکر JBL GO 3",
+      "battery": "up to 5 hours",
+      "water_resistance": "IP67"
+    },
+    "claim": "JBL GO ۳ تنها ۱۰ ساعت شارژدهی دارد.",
+    "label": "REJECT"
+  },
+  {
+    "id": 67,
+    "product_specs": {
+      "name": "هدفون Bose QuietComfort 45",
+      "battery": "up to 24 hours",
+      "anc": "Yes"
+    },
+    "claim": "Bose QC45 با حذف نویز عالی و باتری ۲۴ ساعته یک گزینه پرمیوم است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 68,
+    "product_specs": {
+      "name": "هدفون Bose SoundLink",
+      "battery": "up to 15 hours",
+      "anc": "No"
+    },
+    "claim": "Bose SoundLink دارای حذف نویز فعال است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 69,
+    "product_specs": {
+      "name": "کولرگازی LG Dual Inverter 24000",
+      "cooling": "24000 BTU",
+      "inverter": "Yes"
+    },
+    "claim": "اسپلیت LG Dual Inverter با ظرفیت ۲۴۰۰۰ مناسب اتاق‌های بزرگ است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 70,
+    "product_specs": {
+      "name": "کولرگازی General 18000",
+      "cooling": "18000 BTU",
+      "inverter": "No"
+    },
+    "claim": "کولر General 18000 از تکنولوژی اینورتر بهره می‌برد.",
+    "label": "REJECT"
+  },
+  {
+    "id": 71,
+    "product_specs": {
+      "name": "جاروبرقی Dyson V11",
+      "power": "185AW"
+    },
+    "claim": "Dyson V11 با قدرت مکش بالا یکی از بهترین جاروهای شارژی بازار است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 72,
+    "product_specs": {
+      "name": "جاروبرقی سامسونگ 2000W",
+      "power": "2000W"
+    },
+    "claim": "جاروبرقی سامسونگ ۲۰۰۰ وات از نوع شارژی است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 73,
+    "product_specs": {
+      "name": "ماشین لباسشویی LG 8kg",
+      "capacity": "8kg",
+      "inverter": "Yes"
+    },
+    "claim": "لباسشویی ال‌جی ۸ کیلویی با موتور اینورتر مصرف انرژی کمی دارد.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 74,
+    "product_specs": {
+      "name": "ماشین لباسشویی Daewoo 7kg",
+      "capacity": "7kg",
+      "inverter": "No"
+    },
+    "claim": "لباسشویی دوو ۷ کیلویی دارای موتور اینورتر است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 75,
+    "product_specs": {
+      "name": "هواپز Philips Airfryer XXL",
+      "power": "2200W"
+    },
+    "claim": "Airfryer XXL با توان ۲۲۰۰ وات یکی از بهترین سرخ‌کن‌های بدون روغن است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 76,
+    "product_specs": {
+      "name": "هواپز Xiaomi Mi Air Fryer 3.5L",
+      "power": "1500W"
+    },
+    "claim": "هواپز شیائومی با توان ۱۵۰۰ وات عملکرد خوبی دارد.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 77,
+    "product_specs": {
+      "name": "ماشین ظرفشویی Bosch 14 place",
+      "capacity": "14 نفره",
+      "inverter": "Yes"
+    },
+    "claim": "ماشین ظرفشویی بوش ۱۴ نفره دارای موتور اینورتر است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 78,
+    "product_specs": {
+      "name": "ماشین ظرفشویی Snowa 12 place",
+      "capacity": "12 نفره",
+      "inverter": "No"
+    },
+    "claim": "ماشین ظرفشویی اسنوا ۱۲ نفره دارای موتور اینورتر است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 79,
+    "product_specs": {
+      "name": "گوشی Galaxy A54",
+      "display": "AMOLED 120Hz",
+      "camera_main": "50MP"
+    },
+    "claim": "A54 با دوربین ۵۰ مگاپیکسلی و صفحه AMOLED 120Hz عرضه می‌شود.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 80,
+    "product_specs": {
+      "name": "گوشی Galaxy A24",
+      "display": "AMOLED 90Hz",
+      "camera_main": "50MP"
+    },
+    "claim": "A24 فاقد نمایشگر AMOLED است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 81,
+    "product_specs": {
+      "name": "تبلت Lenovo Tab M10",
+      "display": "10.1 inch LCD",
+      "ram": "4GB"
+    },
+    "claim": "Tab M10 با نمایشگر ۱۰.۱ اینچی LCD برای وبگردی مناسب است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 82,
+    "product_specs": {
+      "name": "تبلت Huawei MatePad T10",
+      "display": "9.7 inch LCD",
+      "ram": "2GB"
+    },
+    "claim": "MatePad T10 از نمایشگر AMOLED استفاده می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 83,
+    "product_specs": {
+      "name": "لپ تاپ Asus TUF F15",
+      "cpu": "Intel Core i7-11800H",
+      "gpu": "RTX 3050",
+      "ram": "16GB"
+    },
+    "claim": "Asus TUF F15 با پردازنده i7 نسل ۱۱ و گرافیک RTX 3050 یک لپ‌تاپ گیمینگ خوب است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 84,
+    "product_specs": {
+      "name": "لپ تاپ Asus VivoBook X515",
+      "cpu": "Intel Core i3",
+      "ram": "8GB",
+      "storage": "256GB SSD"
+    },
+    "claim": "VivoBook X515 دارای پردازنده Core i7 است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 85,
+    "product_specs": {
+      "name": "گوشی Huawei Nova 11",
+      "display": "OLED 120Hz",
+      "camera_main": "50MP"
+    },
+    "claim": "Nova 11 با نمایشگر OLED و دوربین ۵۰ مگاپیکسلی عرضه شده است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 86,
+    "product_specs": {
+      "name": "گوشی Huawei Y9a",
+      "display": "IPS LCD",
+      "camera_main": "64MP"
+    },
+    "claim": "Huawei Y9a دارای نمایشگر OLED است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 87,
+    "product_specs": {
+      "name": "تلویزیون Sony X90K",
+      "panel": "Full Array LED",
+      "resolution": "4K"
+    },
+    "claim": "Sony X90K با پنل Full Array LED یکی از تلویزیون‌های باکیفیت 4K است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 88,
+    "product_specs": {
+      "name": "تلویزیون Hisense A6H",
+      "panel": "LED",
+      "resolution": "4K"
+    },
+    "claim": "Hisense A6H از پنل OLED استفاده می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 89,
+    "product_specs": {
+      "name": "کیس کامپیوتر NZXT H510",
+      "type": "mid tower"
+    },
+    "claim": "کیس NZXT H510 یک کیس mid-tower با طراحی مینیمال است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 90,
+    "product_specs": {
+      "name": "کیس کامپیوتر Green Z6",
+      "type": "mid tower"
+    },
+    "claim": "کیس Green Z6 از نوع full-tower است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 91,
+    "product_specs": {
+      "name": "مودم ADSL TP-Link TD-W8961N",
+      "type": "ADSL2+",
+      "wifi": "Yes"
+    },
+    "claim": "مودم W8961N از ADSL پشتیبانی کرده و دارای وای‌فای است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 92,
+    "product_specs": {
+      "name": "مودم فیبرنوری ZTE F660",
+      "type": "fiber",
+      "wifi": "Yes"
+    },
+    "claim": "مودم ZTE F660 از خطوط ADSL پشتیبانی می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 93,
+    "product_specs": {
+      "name": "مادربرد MSI B550-A Pro",
+      "socket": "AM4"
+    },
+    "claim": "مادربرد B550-A Pro با سوکت AM4 از پردازنده‌های Ryzen پشتیبانی می‌کند.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 94,
+    "product_specs": {
+      "name": "مادربرد Gigabyte H310M",
+      "socket": "LGA1151"
+    },
+    "claim": "مادربرد H310M از پردازنده‌های نسل دوازدهم اینتل پشتیبانی می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 95,
+    "product_specs": {
+      "name": "پنکه Xiaomi Mi Smart Standing Fan 2",
+      "power": "15W"
+    },
+    "claim": "پنکه شیائومی با توان ۱۵ وات بسیار کم‌مصرف است.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 96,
+    "product_specs": {
+      "name": "پنکه Arshia 60W",
+      "power": "60W"
+    },
+    "claim": "پنکه Arshia تنها ۱۵ وات مصرف می‌کند.",
+    "label": "REJECT"
+  },
+  {
+    "id": 97,
+    "product_specs": {
+      "name": "گجت هوشمند Google Nest Mini",
+      "mic": "Far-field",
+      "assistant": "Google Assistant"
+    },
+    "claim": "Google Nest Mini از دستورات صوتی گوگل پشتیبانی می‌کند.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 98,
+    "product_specs": {
+      "name": "گجت هوشمند Amazon Echo Dot 3",
+      "assistant": "Alexa"
+    },
+    "claim": "Amazon Echo Dot 3 دارای Google Assistant است.",
+    "label": "REJECT"
+  },
+  {
+    "id": 99,
+    "product_specs": {
+      "name": "پروژکتور Epson EB-X06",
+      "brightness": "3600 lumens",
+      "resolution": "XGA"
+    },
+    "claim": "Epson EB-X06 با روشنایی ۳۶۰۰ لومن گزینه‌ای مناسب برای کلاس‌هاست.",
+    "label": "ACCEPT"
+  },
+  {
+    "id": 100,
+    "product_specs": {
+      "name": "پروژکتور Xiaomi Mi Smart Projector 2",
+      "brightness": "500 lumens",
+      "resolution": "1080p"
+    },
+    "claim": "Mi Smart Projector 2 دارای روشنایی ۲۰۰۰ لومن است.",
+    "label": "REJECT"
+  }
+]
+
