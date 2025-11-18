@@ -1,5 +1,7 @@
 package org.example.service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
 import com.openai.models.ChatModel;
@@ -13,7 +15,8 @@ import java.util.Map;
 public class LlmServiceImpl implements LlmService {
 
     @Override
-    public ClaimStatus checkClaim(Map<String, String> specs, String claim) {
+    public ClaimStatus
+    checkClaim(Map<String, String> specs, String claim) {
 
         String apiKey = getApiKey();
         OpenAIClient client = getOpenAIClient(apiKey);
@@ -21,28 +24,37 @@ public class LlmServiceImpl implements LlmService {
                 ChatCompletionCreateParams.builder()
                         .model(ChatModel.GPT_4_1_NANO);
 
-        ChatCompletionCreateParams chat = chatBuilder.addSystemMessage("""
+        String specsJson = "";
+        try {
+            specsJson = new ObjectMapper().writeValueAsString(specs);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+
+        String systemMessage = """
                 You are an advance Seller's claim checker.
                 You **must** return just "Accept" or "Reject"
-               
-                """
-        ).addUserMessage("""
+                """;
+
+        String userMessage = String.format("""
                         Is the claim valid based on the product specifications?
                         {
-                            "product_specs": {
-                              "name": "هدفون Sony WH-1000XM5",
-                              "battery": "up to 30 hours"
-                            },
-                            "claim": "هدفون Sony WH-1000XM5 با عمر باتری حداکثر ۳۰ ساعت و بلوتوث ۵.۲، برای سفرهای طولانی عالیه."
-                          }
-                        """)
+                            "product_specs": %s,
+                            "claim": %s"
+                        }
+                        """, specsJson, claim);
+
+        ChatCompletionCreateParams chat = chatBuilder.addSystemMessage(systemMessage)
+                .addUserMessage(userMessage)
                 .build();
 
-        ChatCompletion chatCompletion = client.chat().completions().create(chatBuilder.build());
-
-        chatCompletion.choices().get(0).message().content().ifPresent(System.out::println);
-
-        return ClaimStatus.ACCEPT;
+        ChatCompletion chatCompletion = client.chat().completions().create(chat);
+        try {
+            return Enum.valueOf(ClaimStatus.class, chatCompletion.choices().get(0).message().content().get().toUpperCase());
+        } catch (IllegalArgumentException e) {
+            System.err.println("Invalid day provided: " + chatCompletion.choices().get(0).message().content().get());
+        }
+        return ClaimStatus.REJECT;
     }
 
     @NotNull
