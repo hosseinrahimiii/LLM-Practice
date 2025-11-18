@@ -7,12 +7,13 @@ import lombok.experimental.FieldDefaults;
 
 @Getter
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
-@AllArgsConstructor
 public enum ClaimStatus {
     ACCEPT("ACCEPT"),
     REJECT("REJECT");
 
     String value;
 
-
+    ClaimStatus(String value) {
+        this.value = value;
+    }
 }
